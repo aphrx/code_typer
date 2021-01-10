@@ -17,7 +17,6 @@ if __name__ == "__main__":
                 time.sleep(1)
             elif d == " ":
                 tab_counter += 1
-
             else:
                 if tab_counter % 4 == 0:
                     for i in range(int(tab_counter/4)):
